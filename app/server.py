@@ -12,11 +12,11 @@ from starlette.staticfiles import StaticFiles
 # import gdown
 
 # url = 'https://drive.google.com/uc?id=1-Sr0PRZT201KyIvlpj6Q2OnQ9wsm0ZW6'
-export_file_name = 'fashion_mnist.h5'
+export_file_name = 'export.pkl'
 export_file_url = 'https://drive.google.com/uc?id=1-8-KbPOqgXTZeAAJ_Oe6YMbSpSRR4zLQ'
 
 
-classes = ['Banana', 'Banana Lady Finger', 'Banana Red']
+classes = ['Checked', 'Colourblock', 'Melange', 'Patterned', 'Printed', 'abstract', 'floral', 'graphic', 'polka dots', 'solid', 'striped', 'typography']
 path = Path(__file__).parent
 
 app = Starlette()
