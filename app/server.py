@@ -13,8 +13,7 @@ from starlette.staticfiles import StaticFiles
 
 # url = 'https://drive.google.com/uc?id=1-Sr0PRZT201KyIvlpj6Q2OnQ9wsm0ZW6'
 export_file_name = 'fashion_mnist.h5'
-export_file_url = 'https://drive.google.com/uc?id=1mwt1snYMwFOnm6GJIv3nSC0A9amWGXXh'
-
+export_file_url = 'https://drive.google.com/uc?id=1-8-KbPOqgXTZeAAJ_Oe6YMbSpSRR4zLQ'
 
 
 classes = ['Banana', 'Banana Lady Finger', 'Banana Red']
